@@ -16,9 +16,9 @@ body{
     background-image: url(./images/pattern-background-desktop.svg);
     background-color: var(--background);
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     position: absolute;
-    top: 50%;
+    top: 41%;
     left: 50%;
     transform: translate(-25%,-25%);
     -webkit-transform: translate(-25%,-25%);
@@ -31,17 +31,17 @@ body{
     width: 450px;
     height: fit-content;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0 10px 20px var(--text-color);
     position: relative;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    -webkit-border-radius: 15px 15px 0px 0px;
+    -moz-border-radius: 15px 15px 0px 0px;
+    -ms-border-radius: 15px 15px 0px 0px;
+    -o-border-radius: 15px 15px 0px 0px;
 }
 .hero{
     width: 100%;
