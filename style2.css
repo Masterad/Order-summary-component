@@ -15,10 +15,8 @@ body{
     height: 100vh;
     background-image: url(./images/pattern-background-desktop.svg);
     background-color: var(--background);
-    background-position: top;
-    background-repeat: repeat;
+    background-repeat: repeat-x;
     position: absolute;
-    top: 41%;
     left: 50%;
     transform: translate(-25%,-25%);
     -webkit-transform: translate(-25%,-25%);
@@ -26,22 +24,28 @@ body{
     -ms-transform: translate(-25%,-25%);
     -o-transform: translate(-25%,-25%);
     font-family: 'Red Hat Display', sans-serif;
+    top: 45%;
+    background-position-x: center;
 }
 .card_body{
     width: 450px;
     height: fit-content;
     background-color: #fff;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0 10px 20px var(--text-color);
     position: relative;
-    -webkit-border-radius: 15px 15px 0px 0px;
-    -moz-border-radius: 15px 15px 0px 0px;
-    -ms-border-radius: 15px 15px 0px 0px;
-    -o-border-radius: 15px 15px 0px 0px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -ms-border-radius: 15px 15px 15px 15px;
+    -o-border-radius: 15px 15px 15px 15px;
+}
+header{
+   border-top-left-radius: inherit;
+   border-top-right-radius: inherit;
 }
 .hero{
     width: 100%;
